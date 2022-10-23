@@ -51,7 +51,7 @@ body {
 		max-width: 40px;
 		height: 2px;
 		background: rgba(63, 63, 63, 0.779);
-		transition: all 0.1s ease-in-out;
+		transition: all 0.3s ease-in-out;
 	}
 	.burger-menu::before {
 		transform: translateY(-10px);
@@ -70,7 +70,7 @@ body {
 	.burger-navigation-menu {
 		display: block;
 		visibility: hidden;
-		transform: translateY(120px);
+		transform: translateY(140px);
 	}
 	.burger-navigation-menu.expand {
 		visibility: visible;
