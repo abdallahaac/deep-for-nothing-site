@@ -94,7 +94,7 @@ body {
 		z-index: 1;
 	}
 	.burger-navigation-menu.expand > li {
-		transform: translateY(-30px);
+		transform: translateY(-75px);
 
 		list-style: none;
 		font-size: 33px;
