@@ -41,7 +41,7 @@ body {
 		position: absolute;
 		display: flex;
 		width: 100%;
-		max-width: 25px;
+		max-width: 30px;
 		height: 1px;
 		background: transparent;
 	}
