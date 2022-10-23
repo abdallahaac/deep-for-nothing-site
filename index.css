@@ -44,6 +44,7 @@ body {
 		max-width: 30px;
 		height: 1px;
 		background: transparent;
+		padding: 20px;
 	}
 	.burger-menu::before,
 	.burger-menu::after {
@@ -52,7 +53,6 @@ body {
 		width: 100%;
 		max-width: 40px;
 		height: 1px;
-
 		background: rgba(63, 63, 63, 0.779);
 		transition: all 0.3s ease-in-out;
 	}
@@ -76,7 +76,7 @@ body {
 		display: block;
 		visibility: hidden;
 		transform: translateY(-10px);
-		transform: translateX(-3.5px);
+		transform: translateX(-3px);
 
 		z-index: 1;
 	}
