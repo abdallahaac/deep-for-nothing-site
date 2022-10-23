@@ -5,10 +5,14 @@
 
 body {
 	font-family: sans-serif;
+	z-index: 1;
 }
 /* beginning mobile navbar styling */
 
 @media (max-width: 900px) {
+	header {
+		z-index: 2;
+	}
 	.nav-bar-container {
 		display: flex;
 		flex-direction: row;
@@ -62,26 +66,33 @@ body {
 	.burger-container.expand .burger-menu::after {
 		transform: rotate(-45deg);
 	}
-}
-/* 
-.burger-menu::before {
-	transform: translateY(-50px);
-}
-.burger-menu::after {
-	transform: translateY(10px);
-}
 
-.burger-container.expand .burger-menu {
-	transform: translateX(-50px);
-	background: transparent;
-}
+	.burger-navigation-menu {
+		display: block;
+		visibility: hidden;
+	}
+	.burger-navigation-menu.expand {
+		visibility: visible;
 
-.burger-container.expand .burger-menu::before {
-	transform: rotate(45deg) translate(35px, -35px);
+		z-index: 100;
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		flex-direction: column;
+		justify-content: center;
+		transform: translateY(150px);
+		transition: all 0.5s ease-in-out;
+	}
+	.burger-navigation-menu.expand > li {
+		list-style: none;
+		font-size: 33px;
+		margin: 20px;
+	}
+	.burger-navigation-menu.expand > li > a {
+		text-decoration: none;
+		color: black;
+	}
 }
-
-.burger-container.expand .burger-menu::after {
-	transform: rotate(-45deg) translate(35px, 35px);
-} */
 
 /* end of mobile navbar styling */
