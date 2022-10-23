@@ -70,6 +70,7 @@ body {
 	.burger-navigation-menu {
 		display: block;
 		visibility: hidden;
+		transform: translateY(120px);
 	}
 	.burger-navigation-menu.expand {
 		visibility: visible;
@@ -81,7 +82,7 @@ body {
 		height: 100%;
 		flex-direction: column;
 		justify-content: center;
-		transform: translateY(150px);
+		transform: translateY(100px);
 		transition: all 0.5s ease-in-out;
 	}
 	.burger-navigation-menu.expand > li {
