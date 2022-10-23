@@ -94,6 +94,17 @@ body {
 		text-decoration: none;
 		color: black;
 	}
+	.socials {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.socials > a > img {
+		height: 35px;
+		width: 35px;
+		transform: translateY(100px);
+	}
 }
 
 /* end of mobile navbar styling */
