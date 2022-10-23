@@ -75,8 +75,8 @@ body {
 		margin: 15px;
 		display: block;
 		visibility: hidden;
-		transform: translateY(-10px);
-		transform: translateX(-3px);
+
+		transform: translateX(-5.2px);
 
 		z-index: 1;
 	}
@@ -89,13 +89,11 @@ body {
 		height: 100%;
 		flex-direction: column;
 		justify-content: center;
-		transform: translateY(-30px);
+		transform: translateY(0px);
 		transition: all 0.5s ease-in-out;
 		z-index: 1;
 	}
 	.burger-navigation-menu.expand > li {
-		transform: translateY(0px);
-
 		list-style: none;
 		font-size: 33px;
 		margin: 20px;
