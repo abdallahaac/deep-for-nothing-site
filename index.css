@@ -75,8 +75,8 @@ body {
 		margin: 15px;
 		display: block;
 		visibility: hidden;
-
 		z-index: 1;
+		transform: translateX(-3px);
 	}
 	.burger-navigation-menu.expand {
 		visibility: visible;
@@ -87,9 +87,9 @@ body {
 		height: 100%;
 		flex-direction: column;
 		justify-content: center;
-
-		transition: all 0.5s ease-in-out;
 		z-index: 1;
+		transition: all 0.39s ease-in-out;
+		transform: translateY(-100px);
 	}
 	.burger-navigation-menu.expand > li {
 		list-style: none;
@@ -109,7 +109,7 @@ body {
 	.socials > a > img {
 		height: 35px;
 		width: 35px;
-		/* transform: translateY(100px); */
+		transform: translateY(100px);
 	}
 }
 
