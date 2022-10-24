@@ -88,8 +88,8 @@ body {
 		flex-direction: column;
 		justify-content: center;
 		z-index: 1;
-		transition: all 0.39s ease-in-out;
-		transform: translateY(-100px);
+		transition: all 0.5s ease-in-out;
+		transform: translateY(-60px);
 	}
 	.burger-navigation-menu.expand > li {
 		list-style: none;
